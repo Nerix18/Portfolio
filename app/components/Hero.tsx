@@ -37,11 +37,12 @@ export default function Hero() {
         <ScrollRevealSection>
           <div className="max-w-3xl md:max-w-4xl lg:max-w-5xl mx-auto text-left lg:text-center">
             <h1 className="font-bold leading-tight tracking-tight text-white text-lg sm:text-2xl md:text-6xl lg:text-7xl mb-6 sm:mb-8 text-[1.5rem]">
-              <span className="text-[#d0ff00]">Tvorím weby</span>
-              <span className="block sm:inline"> s nápadom a výsledkom</span>
+              <span className="text-[#d0ff00]">Ahoj, volám sa Richard</span>
+              <span className="block sm:inline"> a som web developer a web dizajnér</span>
             </h1>
             <p className="sm:text-lg md:text-xl leading-relaxed font-light text-[#D4D4D4]/80 max-w-prose md:mx-auto text-[1rem]">
-              Pomáham firmám rásť cez profesionálny web dizajn a efektívny online marketing. Z jednoduchého nápadu spoločne vytvoríme web, ktorý pritiahne pozornosť, zapojí publikum a premení návštevníkov na zákazníkov.
+             Venujem sa tvorbe moderných webových stránok, webdizajnu a po novom skúšam aj online marketing. Baví ma pretvárať nápady na funkčné a vizuálne príťažlivé projekty.
+              Ak ťa zaujali moje práce alebo máš vlastný nápad, pokojne ma kontaktuj, spolu môžeme vytvoriť niečo skvelé.
             </p>
             <div className="mt-8 sm:mt-10 flex justify-start md:justify-center">
               <button
