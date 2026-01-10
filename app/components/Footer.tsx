@@ -18,7 +18,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-12 px-4 text-left lg:justify-items-center">
         {/* Ľavý stĺpec */}
         <div className="w-full max-w-[260px]">
-          <h2 className="font-semibold text-xl bg-white px-3 py-1 rounded-2xl inline-block">
+          <h2 className="font-semibold text-xl inline-block">
             Richard Hodáň
           </h2>
           <p className="pt-4 text-sm">
@@ -32,7 +32,7 @@ export default function Footer() {
             target=""
             rel=""
             >
-            <IoLogoInstagram className="bg-white w-10 h-10 rounded-2xl py-1 px-2 hover:scale-110 transition duration-300 transform" />
+            <IoLogoInstagram className=" py-1 px-2 hover:scale-110 transition duration-300 transform" />
             </a>
 
              <a
@@ -40,7 +40,7 @@ export default function Footer() {
             target=""
             rel=""
             >
-            <FaFacebook className="bg-white w-10 h-10 rounded-2xl py-1 px-2 hover:scale-110 transition duration-300 transform" />
+            <FaFacebook className=" py-1 px-2 hover:scale-110 transition duration-300 transform" />
             </a>
 
              <a
@@ -48,7 +48,7 @@ export default function Footer() {
             target=""
             rel=""
             >
-            <FaLinkedin className=" bg-white w-10 h-10 rounded-2xl py-1 px-2 hover:scale-110 transition duration-300 transform" />
+            <FaLinkedin className=" py-1 px-2 hover:scale-110 transition duration-300 transform" />
             </a>
           </div>
         </div>
@@ -75,15 +75,15 @@ export default function Footer() {
           <h3 className="text-xl font-semibold mb-4 uppercase">Kontakt</h3>
           <div className="space-y-2 text-sm">
             <p className="flex gap-2 items-center">
-              <MdEmail className="bg-white w-10 h-10 rounded-xl py-2 px-2" />
+              <MdEmail className="w-10 h-10 rounded-xl py-2 px-2" />
               hodanrichard@gmail.com
             </p>
             <p className="flex gap-2 items-center">
-              <FaPhoneAlt className="bg-white w-10 h-10 rounded-xl py-2 px-3" />
+              <FaPhoneAlt className="w-10 h-10 rounded-xl py-2 px-3" />
               +421 918 945 660
             </p>
             <p className="flex gap-2 items-center">
-              <FaMapMarkerAlt className="bg-white w-10 h-10 rounded-xl py-2 px-3" />
+              <FaMapMarkerAlt className="w-10 h-10 rounded-xl py-2 px-3" />
               Schiffelova 21, 908 51, Holíč
             </p>
           </div>

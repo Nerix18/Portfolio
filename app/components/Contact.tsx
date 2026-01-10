@@ -165,7 +165,7 @@ export default function Contact() {
                 type="submit"
                 disabled={status === "sending"}
                 aria-busy={status === "sending"}
-                className="group text-white bg-linear-to-r from-[#89d104] to-[#d0ff00] hover:bg-linear-to-br focus:ring-4 focus:outline-none rounded-3xl px-3 py-2 text-center me-2 mb-26 cursor-pointer hover:scale-110 transition-all transform duration-700 border border-[#D0FF00] shadow-[0_0px_40px_#d0ff00]/50 flex items-center gap-2 lg:text-xl text-md font-light disabled:opacity-70 disabled:cursor-not-allowed"
+                className="group text-white bg-linear-to-r from-[#89d104] to-[#d0ff00] hover:bg-linear-to-br focus:ring-4 focus:outline-none rounded-3xl px-3 py-2 text-center me-2 mb-26 cursor-pointer hover:scale-110 transition-all transform duration-700 border border-[#D0FF00] shadow-[0_0px_40px_#d0ff00]/50 flex items-center gap-2 lg:text-md text-md font-light disabled:opacity-70 disabled:cursor-not-allowed"
                 style={{
                   boxShadow:
                     "0 10px 30px rgba(185,255,0,0.25), inset 0 1px 0 rgba(255,255,255,0.35)",
